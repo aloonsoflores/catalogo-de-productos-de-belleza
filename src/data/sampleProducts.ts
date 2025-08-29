@@ -1,0 +1,1076 @@
+import { Product } from '../types/Product';
+
+export const sampleProducts: Product[] = [
+  {
+    "categoria": "CREMAS",
+    "marca": "3INA",
+    "producto": "THE SORBET FACE CREAM",
+    "caracteristicas": "Crema Hidratación",
+    "volumen": "50ml",
+    "precio": "20€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Biotherm",
+    "producto": "AQUASOURCE HYDRA BARRIER CREAM",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "32€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Biotherm",
+    "producto": "CERA REPAIR BARRIER CREAM",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "32€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Biotherm",
+    "producto": "BLUE PEPTIDES UPLIFT CREAM RICH",
+    "caracteristicas": "Piel Seca, DÍA",
+    "volumen": "50ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Biotherm",
+    "producto": "BLUE PEPTIDES UPLIFT CREAM NIGHT",
+    "caracteristicas": "Todo Tipo Piel, NOCHE",
+    "volumen": "50ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "CALM ESSENTIEL",
+    "caracteristicas": "Emulsión Apaisante",
+    "volumen": "50ml",
+    "precio": "28€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "CALM ESSENTIEL",
+    "caracteristicas": "Gel anti rojeces",
+    "volumen": "30ml",
+    "precio": "28€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "HYDRA-ESSENTIEL",
+    "caracteristicas": "HA2, PIEL MUY SECA",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "HYDRA-ESSENTIEL",
+    "caracteristicas": "HA2, PIEL NORMAL A SECAS",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "HYDRA-ESSENTIEL SPF15",
+    "caracteristicas": "HA2, DÍA, PIEL NORMAL A SECAS",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI ACTIVE JOUR",
+    "caracteristicas": "Niacinamide + Sea Holly extract, DÍA, PIEL SECA",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI ACTIVE JOUR SPF15 FLUIDE ANTIOXIDANT",
+    "caracteristicas": "DÍA, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI ACTIVE NUIT",
+    "caracteristicas": "NOCHE, PIEL Normal/Seca",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI ACTIVE NUIT",
+    "caracteristicas": "NOCHE, PIEL Normal/Mixta",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI ACTIVE NUIT",
+    "caracteristicas": "Niacinamide + Sea Holly extract, NOCHE, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI ACTIVE NUIT",
+    "caracteristicas": "Niacinamide + Sea Holly extract, NOCHE, PIEL Seca",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING JOUR SPF15",
+    "caracteristicas": "DIA, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING JOUR",
+    "caracteristicas": "DIA, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING JOUR",
+    "caracteristicas": "DIA, PIEL SECAS",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING JOUR",
+    "caracteristicas": "COLLAGENO, DÍA, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING JOUR",
+    "caracteristicas": "COLLAGENO, DÍA, PIEL SECA",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING NUIT",
+    "caracteristicas": "NOCHE, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING NUIT",
+    "caracteristicas": "NOCHE, PIEL SECA",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING NUIT",
+    "caracteristicas": "COLLAGENO, NOCHE, PIEL SECA",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "EXTRA FIRMING ENERGY",
+    "caracteristicas": "TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI-INTENSIVE JOUR SPF15",
+    "caracteristicas": "DIA, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI-INTENSIVE JOUR",
+    "caracteristicas": "DIA, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI-INTENSIVE JOUR",
+    "caracteristicas": "DIA, PIEL MUY SECAS",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI-INTENSIVE NUIT",
+    "caracteristicas": "NOCHE, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI-INTENSIVE NUIT",
+    "caracteristicas": "NOCHE, PIEL MUY SECAS",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "MULTI-INTENSIVE",
+    "caracteristicas": "CUELLO Y ESCOTE",
+    "volumen": "75ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "ROSE RADIANCE",
+    "caracteristicas": "DÍA/NOCHE, TODO TIPO PIEL",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "NUTRI-LUMIERE JOUR",
+    "caracteristicas": "DIA",
+    "volumen": "50ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "NUTRI-LUMIERE JOUR SPF15",
+    "caracteristicas": "DIA",
+    "volumen": "50ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "NUTRI-LUMIERE JOUR EMULSION",
+    "caracteristicas": "DIA",
+    "volumen": "50ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "NUTRI-LUMIERE REVIVE",
+    "caracteristicas": "DIA",
+    "volumen": "50ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clarins",
+    "producto": "NUTRI-LUMIERE NUIT",
+    "caracteristicas": "NOCHE",
+    "volumen": "50ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clinique",
+    "producto": "SMART SPF15",
+    "caracteristicas": "DÍA, Piel Mixta/Grasa",
+    "volumen": "50ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clinique",
+    "producto": "SMART NIGHT",
+    "caracteristicas": "NOCHE, Piel Seca/Mixta",
+    "volumen": "50ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clinique",
+    "producto": "SMART CLINICAL REPAIR SPF30",
+    "caracteristicas": "DÍA",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clinique",
+    "producto": "SMART CLINICAL REPAIR",
+    "caracteristicas": "Rostro/Cuello, DÍA/NOCHE",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clinique",
+    "producto": "SMART CLINICAL NIGHT",
+    "caracteristicas": "Noche",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clinique",
+    "producto": "SUPERDEFENSE SPF25",
+    "caracteristicas": "Día, Piel seca/Mixta",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Clinique",
+    "producto": "SUPERDEFENSE NIGHT",
+    "caracteristicas": "Noche, Piel mixta/Piel Grasa",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Dior",
+    "producto": "CAPTURE TOTALE DREAMSKIN PERFECT CUSHION SPF50",
+    "caracteristicas": "Tono 000, Corrector Hidratante",
+    "volumen": "15G",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Elizabeth Arden",
+    "producto": "PREVAGE ANTI-EDAD OVERNIGHT",
+    "caracteristicas": "NOCHE",
+    "volumen": "50ml",
+    "precio": "70€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Elizabeth Arden",
+    "producto": "SUPERSTAR SKIN RENEWAL BOOSTER",
+    "caracteristicas": "",
+    "volumen": "30ml",
+    "precio": "28€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Elizabeth Arden",
+    "producto": "SUPERSTAR SKIN RENEWAL BOOSTER",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Elizabeth Arden",
+    "producto": "VISIBLE DIFFERENCE REPLENISHING CREMA COMPLEX",
+    "caracteristicas": "Crema Hidratante",
+    "volumen": "75ml",
+    "precio": "22€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Juvena",
+    "producto": "SKIN ENERGY AQUA RECHARGE ESSENCE",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "40€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Juvena",
+    "producto": "SKIN ENERGY GEL HYDRATANT",
+    "caracteristicas": "DÍA/NOCHE",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Lancaster",
+    "producto": "GOLDEN LIFT SPF15",
+    "caracteristicas": "DÍA",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Lancaster",
+    "producto": "SKIN LIFE",
+    "caracteristicas": "NOCHE",
+    "volumen": "50ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Lancome",
+    "producto": "ABSOLUE",
+    "caracteristicas": "AMPOLLA REPARADORA BIFASICA",
+    "volumen": "12ml",
+    "precio": "65€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Lancome",
+    "producto": "ADVANCED GENIFIQUE NIGHT CREAM",
+    "caracteristicas": "NOCHE",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Lancome",
+    "producto": "RENERGIE MULTI-GLOW",
+    "caracteristicas": "DÍA",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Lancome",
+    "producto": "RENERGIE SPF50 H.P.N. UVMUNE",
+    "caracteristicas": "DÍA",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Sensai",
+    "producto": "CELLULAR PERFORMANCE DEEP LIFT FILLER",
+    "caracteristicas": "TRATAMIENTO LIFTING RELLENADOR",
+    "volumen": "20ml",
+    "precio": "70€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Sensai",
+    "producto": "LIFT FOCUS ESSENCE",
+    "caracteristicas": "DÍA/NOCHE",
+    "volumen": "40ml",
+    "precio": "95€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Shiseido",
+    "producto": "BENEFICIANCE CONCENTRATED NECK",
+    "caracteristicas": "CREMA PARA CUELLO",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Shiseido",
+    "producto": "BENEFICIANCE OVERNIGHT WRINKLE RESISTING CREAM",
+    "caracteristicas": "NOCHE",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Shiseido",
+    "producto": "BIO-PERFORMANCE ADVANCED",
+    "caracteristicas": "DÍA/NOCHE",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS",
+    "marca": "Shiseido",
+    "producto": "VITAL PERFECTION CONCENTRATED SUPREME CREAM",
+    "caracteristicas": "DÍA/NOCHE",
+    "volumen": "50ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Clarins",
+    "producto": "SUPRA SERUM LIFT-REMODELANT",
+    "caracteristicas": "",
+    "volumen": "30ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Elizabeth Arden",
+    "producto": "PREVAGE ANTI-EDAD INTENSIVE SERUM",
+    "caracteristicas": "",
+    "volumen": "30ml",
+    "precio": "75€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Elizabeth Arden",
+    "producto": "PREVAGE ANTI-EDAD 2.0 SERUM",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "80€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Estee Lauder",
+    "producto": "ADVANCED NIGHT REPAIR",
+    "caracteristicas": "",
+    "volumen": "100ml",
+    "precio": "85€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "L'Occitane",
+    "producto": "SERUM IMMORTELLE DIVINE",
+    "caracteristicas": "",
+    "volumen": "30ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "L'Occitane",
+    "producto": "SERUM IMMORTELLE RESET OVERNIGHT",
+    "caracteristicas": "",
+    "volumen": "30ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Lancome",
+    "producto": "GENIFIQUE ULTÍMATE SERUM",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Lancome",
+    "producto": "RENERGIE H.C.F TRIPLE SERUM RETINOL",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "60€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Lancome",
+    "producto": "RENERGIE C.R.X TRIPLE SERUM RETINOL",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "70€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Shiseido",
+    "producto": "FUTURE SOLUTION LX INTENSIVE FIRMING CONTOUR",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "140€"
+  },
+  {
+    "categoria": "SERUM",
+    "marca": "Shiseido",
+    "producto": "FUTURE SOLUTION LX LEGENDARY ENMAI ULTÍMATE LUMINANCE",
+    "caracteristicas": "",
+    "volumen": "30ml",
+    "precio": "140€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Elizabeth Arden",
+    "producto": "PREVAGE ANTI-EDAD SPF15 EYE",
+    "caracteristicas": "",
+    "volumen": "15ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Elizabeth Arden",
+    "producto": "PREVAGE ANTI-EDAD EYE SERUM 2.0",
+    "caracteristicas": "",
+    "volumen": "20ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Juvena",
+    "producto": "EYE LIFTING SERUM",
+    "caracteristicas": "",
+    "volumen": "15ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Juvena",
+    "producto": "MIRACLE EYE CREAM",
+    "caracteristicas": "",
+    "volumen": "20ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "L’Occitane",
+    "producto": "IMMORTELLE DIVINE EYE BALM",
+    "caracteristicas": "",
+    "volumen": "15ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Lancome",
+    "producto": "ABSOLUE YEUX",
+    "caracteristicas": "",
+    "volumen": "20ml",
+    "precio": "70€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Lancome",
+    "producto": "GENIFIQUE ULTÍMATE YEUX",
+    "caracteristicas": "",
+    "volumen": "20ml",
+    "precio": "40€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Lancome",
+    "producto": "RENERGIE YEUX",
+    "caracteristicas": "",
+    "volumen": "15ml",
+    "precio": "40€"
+  },
+  {
+    "categoria": "CONTORNO DE OJOS",
+    "marca": "Shiseido",
+    "producto": "FUTURE SOLUTION LX EYE AND LIP",
+    "caracteristicas": "",
+    "volumen": "17ml",
+    "precio": "80€"
+  },
+  {
+    "categoria": "MASCARILLA",
+    "marca": "Biotherm",
+    "producto": "ACQUASOURCE EVERPLUMP NIGHT",
+    "caracteristicas": "Todo tipo de piel",
+    "volumen": "75ml",
+    "precio": "40€"
+  },
+  {
+    "categoria": "MASCARILLA",
+    "marca": "Clarins",
+    "producto": "SOS CONFORT",
+    "caracteristicas": "",
+    "volumen": "75ml",
+    "precio": "30€"
+  },
+  {
+    "categoria": "MASCARILLA",
+    "marca": "Sensai",
+    "producto": "SILKY BRONZE SOOTHING AFTER SUN REPAIR MASK",
+    "caracteristicas": "",
+    "volumen": "60ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "BAUME-HUILE HYDRATANT TONIC",
+    "caracteristicas": "Bálsamo corporal hidratante",
+    "volumen": "200ml",
+    "precio": "28€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "DEMAQUILLANT DOUCEUR YEUX",
+    "caracteristicas": "Desmaquillante Ojos",
+    "volumen": "125ml",
+    "precio": "22€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "AGUA MICELAR DESMAQUILLANTE",
+    "caracteristicas": "Piel Sensible",
+    "volumen": "200ml",
+    "precio": "22€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "EAU DYNAMISANTE",
+    "caracteristicas": "Leche corporal Hidratante",
+    "volumen": "200ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "GOMMAGE EXFOLIANT",
+    "caracteristicas": "EXFOLIANTE CORPORAL HIDRATANTE Y REAFIRMANTE",
+    "volumen": "200ml",
+    "precio": "28€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "HUILE RELAX",
+    "caracteristicas": "Aceite Calmante",
+    "volumen": "100ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "HUILE TONIC",
+    "caracteristicas": "Aceite Tonificante",
+    "volumen": "100ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "MASVELT ADVANCED",
+    "caracteristicas": "Crema Moldeadora figura",
+    "volumen": "200g",
+    "precio": "35€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "MULTI-INTENSIVE Vientre y Cintura",
+    "caracteristicas": "",
+    "volumen": "200ml",
+    "precio": "40€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "BODY FIT ACTIVE",
+    "caracteristicas": "",
+    "volumen": "200ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "BODY FIRMING CREMA",
+    "caracteristicas": "",
+    "volumen": "200ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "BODY FIRMING GEL",
+    "caracteristicas": "",
+    "volumen": "200ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Clarins",
+    "producto": "BODY PARTNER",
+    "caracteristicas": "Antiestrias",
+    "volumen": "175ml",
+    "precio": "35€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Eyeko",
+    "producto": "EYELINER BLACK MÁGIC LIQUID",
+    "caracteristicas": "",
+    "volumen": "",
+    "precio": "18€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Hugo Boss",
+    "producto": "JOUR",
+    "caracteristicas": "BODY MILK",
+    "volumen": "200ml",
+    "precio": "28€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Mary Kay",
+    "producto": "LIMPIADORA 4 en 1 TIMEWISE",
+    "caracteristicas": "",
+    "volumen": "127g",
+    "precio": "25€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Mary Kay",
+    "producto": "LIMPIADORA EN ESPUMA TIMEWISE",
+    "caracteristicas": "",
+    "volumen": "137g",
+    "precio": "25€"
+  },
+  {
+    "categoria": "OTROS",
+    "marca": "Mary Kay",
+    "producto": "LOCIÓN TONIFICANTE TIMEWISE",
+    "caracteristicas": "",
+    "volumen": "236ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Clarins",
+    "producto": "BRUMA SOLAR EMBELLESEDORA SPF50",
+    "caracteristicas": "CUERPO",
+    "volumen": "150ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Clarins",
+    "producto": "CREMA SOLAR ANTIEDAD SPF30",
+    "caracteristicas": "CUERPO",
+    "volumen": "150ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Mary Kay",
+    "producto": "PROTECTOR SOLAR FACIAL MINERAL SPF30",
+    "caracteristicas": "",
+    "volumen": "48g",
+    "precio": "25€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Sensai",
+    "producto": "SILKY BRONZE SELF TANNING",
+    "caracteristicas": "Gel Autobronceador Facial",
+    "volumen": "50ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Sensai",
+    "producto": "SILKY BRONZE SUN PROTECTIVE CREAM SPF10",
+    "caracteristicas": "Protector Facial Antienvejecimiento",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Sensai",
+    "producto": "SILKY BRONZE SUN PROTECTIVE CREAM SPF20",
+    "caracteristicas": "Protector Facial Antienvejecimiento",
+    "volumen": "50ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Sensai",
+    "producto": "SILKY BRONZE SUN PROTECTIVE CREAM FOR BODY SPF30",
+    "caracteristicas": "Protección Corporal",
+    "volumen": "150ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Sensai",
+    "producto": "SILKY BRONZE CELLULAR PROTECTIVE CREAM SPF15",
+    "caracteristicas": "Protección Facial",
+    "volumen": "50ml",
+    "precio": "55€"
+  },
+  {
+    "categoria": "CREMAS SOLARES",
+    "marca": "Sensai",
+    "producto": "SILKY BRONZE SOOTHING  EMULSIÓN",
+    "caracteristicas": "AFTER SUN",
+    "volumen": "150ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "SISLEY PARA TU CABELLO",
+    "marca": "Sisley",
+    "producto": "LA CURE ANTIPELLICULAIRE APAISANTE",
+    "caracteristicas": "Serum Anti caspa",
+    "volumen": "60ml",
+    "precio": "50€"
+  },
+  {
+    "categoria": "SISLEY PARA TU CABELLO",
+    "marca": "Sisley Hair",
+    "producto": "LE SPRAY FIXANT INVISIBLE",
+    "caracteristicas": "LACA",
+    "volumen": "250ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "SISLEY PARA TU CABELLO",
+    "marca": "Sisley Hair",
+    "producto": "MASQUE PURIFIANT AVANT-SHAMPOO",
+    "caracteristicas": "Máscarilla",
+    "volumen": "200ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "SISLEY PARA TU CABELLO",
+    "marca": "Sisley Hair",
+    "producto": "MASQUE SOIN SUBLIMATEUR DE COULEUR",
+    "caracteristicas": "Máscarilla",
+    "volumen": "200ml",
+    "precio": "45€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Biotherm Homme",
+    "producto": "FORCE SUPREME REBOOT SHOT FACE & EYE",
+    "caracteristicas": "SERUM",
+    "volumen": "30ml",
+    "precio": "40€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Biotherm",
+    "producto": "Homme",
+    "caracteristicas": "Gel Espuma Afeitar",
+    "volumen": "150ml",
+    "precio": "18€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Calvin Klein",
+    "producto": "ALL OVER BODY SPRAY",
+    "caracteristicas": "CUERPO",
+    "volumen": "200ml",
+    "precio": "20€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "ANTI-RIDES FERMETE",
+    "caracteristicas": "PIEL SECAS, Crema Anti- Arrugas",
+    "volumen": "50ml",
+    "precio": "40€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "BAUME SUPER HYDRATANT",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "30€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "GEL ENERGISANT",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "32€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "GEL SUPER HYDRATANT",
+    "caracteristicas": "",
+    "volumen": "50ml",
+    "precio": "30€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "GEL ENERGISANT YEUX",
+    "caracteristicas": "CONTORNO DE OJOS",
+    "volumen": "15ml",
+    "precio": "28€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "GEL APAISANT",
+    "caracteristicas": "AFTER SHAVE",
+    "volumen": "75ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "HUILE RASSAGE + BARBE",
+    "caracteristicas": "Aceite Para AFEITADO",
+    "volumen": "30ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Claríns",
+    "producto": "GEL MOUSSANT RASAGE IDEAL",
+    "caracteristicas": "Gel Espumoso",
+    "volumen": "150ml",
+    "precio": "20€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Claríns",
+    "producto": "GEL APAISANT",
+    "caracteristicas": "AFTER SHAVE",
+    "volumen": "75ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "LOTION APAISANTE",
+    "caracteristicas": "AFTER SHAVE",
+    "volumen": "100ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "NETTOYANT EXFOLIANT",
+    "caracteristicas": "Gel exfoliante y Limpiador",
+    "volumen": "125ml",
+    "precio": "25€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "NETTOYANT VISAGE ACTIVE",
+    "caracteristicas": "Espuma Limpiadora Facial",
+    "volumen": "125ml",
+    "precio": "22€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Clarins",
+    "producto": "SHAMPOO & SHOWER",
+    "caracteristicas": "",
+    "volumen": "200ml",
+    "precio": "22€"
+  },
+  {
+    "categoria": "HOMBRE",
+    "marca": "Dior",
+    "producto": "HOMME",
+    "caracteristicas": "AFTER SHAVE BÁLSAMO",
+    "volumen": "100ml",
+    "precio": "35€"
+  }
+];

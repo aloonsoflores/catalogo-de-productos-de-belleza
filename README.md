@@ -79,12 +79,6 @@ El archivo debe tener las siguientes columnas en este orden:
 Categoría | Marca | Producto | Características | Volumen | Precio
 ```
 
-Ejemplo:
-```
-CREMAS | 3INA | THE SORBET FACE CREAM | Crema Hidratación | 50ml | 20€
-CREMAS | Biotherm | AQUASOURCE HYDRA BARRIER CREAM |  | 50ml | 32€
-```
-
 #### 3. Descargar Plantilla de Ejemplo
 - Haz clic en "Descargar Ejemplo" para obtener un archivo Excel con el formato correcto
 - Usa esta plantilla como base para tus productos
